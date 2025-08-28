@@ -1,5 +1,7 @@
 # GitHub Actions for DevOps: A Step-by-Step Guide to Docker Build and Push
 
+<img width="679" height="452" alt="Image" src="https://github.com/user-attachments/assets/54b5f89b-cc87-43e9-a280-c1cc6499603e" />
+
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/913be993-5d1e-4905-af60-f174ec0b48ed" />
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/7a1eecfb-b6ea-4c78-89dd-6a29620d86ff" />
