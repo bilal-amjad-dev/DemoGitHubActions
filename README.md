@@ -2,39 +2,84 @@
 
 <img width="679" height="452" alt="Image" src="https://github.com/user-attachments/assets/54b5f89b-cc87-43e9-a280-c1cc6499603e" />
 
+
+In this project, we'll walk through the process of building a Docker image for a sample application and pushing it to Docker Hub, all automated using a GitHub Actions CI/CD pipeline.
+
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/913be993-5d1e-4905-af60-f174ec0b48ed" />
+
+- Create a repository
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/7a1eecfb-b6ea-4c78-89dd-6a29620d86ff" />
 
+- Create new file
+
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/bdc39263-e10b-4653-a990-f30e02786ddd" />
+
+- Create main.go
+
+```bash
+
+```
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/43d5b11f-d7d8-41b7-84ad-52f1c66de710" />
 
+- Create Dockerfile
+
+```bash
+
+```
+
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/d0cd1b69-e2ae-4282-aa5a-2903f28d7b03" />
+
+- Click Settings
+- Secrets and variables
+- Actions
+- New repository secret
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/b93d223b-08a1-48ab-af87-d7e73008a498" />
 
+- Account settings
+- Personal access tokens
+- Generate new token
+
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/2b3e330e-8813-47e5-a630-1b8e04d5f425" />
 
-
+- Token name: dockerhub
+- Access permissions: Read & Write
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/11510e0b-0968-42c0-8824-d347552591f6" />
 
+- Copy token and note it 
+
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/8207759b-7fac-4acc-9825-38b6cac2d147" />
 
-
+- Name: DOCKERHUB_USERNAME
+- Your dockerhub username
 
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/04637a13-505a-4bf2-884a-31c9388499d3" />
 
+- Name: DOCKERHUB_TOKEN
+- Paste your dockerhub token
+
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/51dc2a8f-6e00-467a-bbf2-abf19141c4a2" />
 
-
+- Click Actions
+- Set up a workflow yourself
 
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/342abc7f-0e05-4a65-a149-eb4735d8ac08" />
 
+- Paste this code
+
+```bash
+paste here
+```
+
+
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/8088c424-05b6-419d-997e-1bed080862b2" />
+
+- You can see our pipeline has run successfully.
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/03a81550-9a56-465d-a435-bb7c5f7303b4" />
 
